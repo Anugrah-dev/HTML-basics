@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Making form</title>
+</head>
+<body>
+    <heading>Please fill the form carefully</heading>
+    <br>
+    <form action="/submit-to.">
+        <label for="First name">First name:</label>
+        <input type="text" placeholder="First name here" id="First name" required>
+        <br>
+        <br>
+        <label for="Last name">Last name</label>
+        <input type="text" placeholder="Last name here" id="Last name" required>
+        <br>
+        <br>
+        <label for="Gender">Gender</label>
+        <select id="Gender" name="Gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="other">Other</option>
+        </select>
+        <br>
+        <br>
+        <label for="D.O.B">D.O.B:</label>
+        <input type="date" id="D.O.B" required>
+        <br>
+        <br>
+        <label for="Hobbies">Hobbies:</label>
+        <textarea rows="4" cols="40" id="Hobbies" required>Text here</textarea>
+        <br>
+        <br>
+        <br>
+        <label for="Submit"></label>
+        <input type="submit" id="Submit">
+    </form>
+</body>
+</html>
